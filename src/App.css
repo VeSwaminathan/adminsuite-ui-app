@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 100px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-header h2{
+  text-align: center;
+  margin-right: 75px;
+  float: right;
+  padding: 0px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App-entry {
+  border-radius: 5px;
+  border: 2px solid black;
+  background: #a77;
+  color: #333;
+  margin: 50px;
+  padding: 20px;  
+  width: 400px;
+}
+.App-entry div{
+  text-align: center;
+}
+#table tr{
+  align-content: stretch;
+  text-align: right;
+}
+#table input{
+  text-align: left;
+  vertical-align: text-top;
+}
+.App-footer {
+  background-color: cornflowerblue;
+  height: 20px;
+  bottom: 0px;
+  padding: 20px;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+.App-footer span{
+  margin-right: 15px;
+  float: left;
+  padding-right: 25px;  
+}
+.App-footer #dateText{
+  float: right;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+.glyphButton{
+  float: left;
+}
+#table-container table thead{
+  background-color: #fff;   
+  display:table;
+  width:100%;
+  table-layout:fixed;/* even columns width , fix width of table too*/
+  width: calc( 100% - 1em )/* scrollbar is average 1em/16px width, remove it from thead width */  
+}
+#table-container table tbody{
+  display: block;
+  overflow: scroll;
+  height:250px;
+  width:100%;
+  table-layout:fixed;/* even columns width , fix width of table too*/
+}
+#table-container table tr{
+    display:table;
+    width:100%;
+    table-layout:fixed;/* even columns width , fix width of table too*/
+}
+#table-container table td{
+  word-break: break-all;
+  table-layout:fixed;/* even columns width , fix width of table too*/  
+}
+#idCol,#systemCol{
+  vertical-align: middle;
+}
+#table-container table #hashcol{
+  width: 2%;
+}
+#message-table-container table thead{
+  background-color: #fff;   
+  display:table;
+  width:100%;
+  table-layout:fixed;/* even columns width , fix width of table too*/
+  width: calc( 100% - 1em )/* scrollbar is average 1em/16px width, remove it from thead width */  
+}
+#message-table-container table tbody{
+  display: block;
+  overflow-y: scroll;
+  width:100%;
+  table-layout:fixed;/* even columns width , fix width of table too*/
+}
+#message-table-container table tr{
+    display:table;
+    width:100%;
+    table-layout:fixed;/* even columns width , fix width of table too*/
+}
+#message-table-container table td{
+  word-break: break-all;
+  table-layout:fixed;/* even columns width , fix width of table too*/  
+}
+#message-table-container table #hashcol{
+  width: 2%;
+}
+#message-table-container table #idCol{
+  width: 5%;
+}
+#message-table-container table #msgCode{
+  width: 10%;
+}
+#message-table-container table #taggedFor,#status{
+  width: 10%;
+}
